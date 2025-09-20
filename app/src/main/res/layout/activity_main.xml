@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/edtTuSo1_123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhâp tử số 1"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edtMauSo1_123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mẫu số 1"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edtTuSo2_123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tử số 2"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edtMauSo2_123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mẫu số 2"
+        android:inputType="number"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnCong_123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btnCong_123"
+            android:text="Cộng"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnTru_123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btnTru_123"
+            android:text="Trừ"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:id="@+id/btnNhan_123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btnNhan_123"
+            android:text="Nhân"
+            android:textColor="@android:color/white"/>/>
+        <Button
+            android:id="@+id/btnChia_123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btnChia_123"
+            android:text="Chia"
+            android:textColor="@android:color/white"/>/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtKetQua_123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả: "
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+
+</LinearLayout>
